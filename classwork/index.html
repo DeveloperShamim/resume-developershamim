@@ -1,70 +1,90 @@
 <html>
 
 <head>
-  <title>My online resume</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Resume</title>
 </head>
 
 <body>
-  <img src="images/shamim.jpg" alt="Mohammad Shamim Hossain" width="600" height="500">
+  <div id="wrapper">
+    <div id="mainbody">
+      <div id="content">
+        <div id="leftsidebar">
+          <div class="main_tittle">
+            <h1>
+              Hi, My Name is Mohammad Shamim Hossain
+            </h1>
+          </div>
 
-  <div>
-    <h1>Mohammad Shamim Hossain.</h1>
-    <p>Web designner and Developer</p>
+          <div class="main_description">
+            <p>
+              I am a creative Graphics Designer And Cartoonist. I
+              have over two years in the digital industry.
+
+              Specialising in logo design and bringing those logos to life through clever motion graphics
+              to encapsulate your brand.
+
+              With an in-depth knowledge of storytelling mediums, I can handle a variety of tasks right
+              from concept creation straight to filming, animation, and editing.
+
+            </p>
+          </div>
+
+
+          <div class="contact_me">
+            <h1>
+              Drop Me A Line</h1>
+            <div>
+              <form action="#">
+                <label for="fname">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email here">
+
+                <label for="message">Subject</label>
+                <textarea class="subject" name="subject" placeholder="Write something.."></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+
+        </div>
+        <div id="navigation">
+          <div class="nav">
+            <ul>
+              <li><a href="#" class="active"><span>Home</span></a></li>
+              <li>|</li>
+              <li><a href="#"><span>About</span></a></li>
+              <li>|</li>
+              <li><a href="#"><span>Work</span></a></li>
+              <li>|</li>
+              <li><a href="#"><span>Contact</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div id="sidebar">
+          <div class="quake-slider">
+            <div class="quake-slider-images">
+              <img src="images/shamim.png" alt="" height="100%" width="100%" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
   </div>
+  <div id="footer">
+    <a href="https://www.facebook.com/mohammadshamim0"> Designed by Mohammad Shamim Hossain </a>
+    <table>
+      <tr>
+        <th>Name:</th>
+        <th>Phone:</th>
+      </tr>
+      <tr>
+        <td>Shamim</td>
+        <td>01766963632 </td>
+      </tr>
+    </table>
 
-
-  <h2>Basic Skills</h2>
-  <ol>
-    <li>Html and Css</li>
-    <li>Java</li>
-    <li>C++</li>
-    <li>SQL</li>
-    <li>Php</li>
-    <li>Java Script</li>
-  </ol>
-
-  <h3> Course this semester </h3>
-  <table>
-    <tr>
-      <th>Code</th>
-      <th>Name</th>
-      <th>Room</th>
-    </tr>
-    <tr>
-      <td>CSC412</td>
-      <td>Wireless Networking & Mobile Communication </td>
-      <td>BC5012</td>
-    </tr>
-    <tr>
-      <td>CSC445</td>
-      <td>Software Engineering </td>
-      <td>BC6007</td>
-
-    </tr>
-    <tr>
-      <td>CSC455</td>
-      <td>Web Applications and Internet </td>
-      <td>GPLab</td>
-    </tr>
-    <tr>
-      <td>ENV316</td>
-      <td>Environmental Management System </td>
-      <td>BC4014</td>
-    </tr>
-  </table>
-  <a href="https://www.facebook.com/mohammadshamim0"> Contact Me.... </a>
-
-
-  <h4>Contact me </h4>
-  <form action="/">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label><br>
-    <input type="text" id="lname" name="lname"><br>
-    <input type="submit" value="Submit">
-  </form>
-
-
+  </div>
 </body>
 
 </html>
