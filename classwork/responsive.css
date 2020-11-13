@@ -1,1 +1,90 @@
 /* Your responsive CSS styles go here */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+
+
+  #navigation {
+    float: left;
+    height: 41px;
+    left: -112px;
+    margin: 0 0px 0 0px;
+    position: absolute;
+    top: -3px;
+    /* z-index: 371; */
+    width: 500px;
+}
+
+
+
+            .main_tittle {
+              width: 431px;
+          }
+          .contact_me {
+            width: 436px;
+          }
+
+
+
+            #navigation {
+              float: right;
+              height: 40px;
+              left: 0px; 
+              margin: 0 0px 0 0px;
+              position: absolute;
+              top: 31px;
+              z-index: 400;
+              width: 271px;
+          }
+          #sidebar {
+            width: 0px;
+            /* float: left; */
+            height: 0px;
+            background: #100206;
+          }
+          #leftsidebar {
+            width: 600px;
+            float: left;
+            height: 589px;
+            background: #333;
+            padding-bottom: 14px;
+          }
+          .main_description {
+            width: 433px;
+            float: left;
+            border-top: 1px solid rgb(96, 96, 96);
+            line-height: 22px;
+            margin: 25px 0px 0px 40px;
+            padding: 10px 0px 0px;
+          }
+          p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            text-align: justify;
+            line-height: 18px;
+            color: #CCC;
+          }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}

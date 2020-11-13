@@ -1,3 +1,5 @@
+
+
 body{
 	background: #020202 url(images/highlight.jpg) no-repeat center;
 	font-family:Helvatica,Arial, "Times New Roman", Times, serif;
@@ -7,8 +9,6 @@ body{
 	padding:0;
 	line-height:1.5em;
 }
-
-
 
 .subject {
   width: 100%;
@@ -257,4 +257,3 @@ line-height:16px;
 		font-size:11px;
 		line-height:22px;
 	}	
-
