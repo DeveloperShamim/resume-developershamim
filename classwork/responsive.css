@@ -1,4 +1,4 @@
-@media (min-width: 1000px) {
+@media(min-width: 1000px) {
   #navigation {
     float: right;
     height: 40px;
@@ -21,7 +21,7 @@
   }
 }
 
-@media (max-width: 500px) and (min-width: 1000px) {
+@media(max-width:500px) and (min-width: 1000px) {
   #leftsidebar {
     width: 360px;
     float: left;
@@ -31,7 +31,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media(max-width:500px) {
   #navigation {
     float: left;
     height: 41px;
