@@ -43,12 +43,6 @@ input[type=submit]:hover {
 	background-color: #45a049;
 }
 
-.formblock {
-	display: block;
-	clear: left;
-	position: relative;
-}
-
 #wrapper {
 	width: 960px;
 	margin: 0 auto;
@@ -98,12 +92,6 @@ p {
 	z-index: 50;
 }
 
-#main {
-	width: 100%;
-	float: left;
-	background: #333;
-}
-
 #leftsidebar {
 	width: 360px;
 	float: left;
@@ -128,11 +116,6 @@ p {
 	top: 31px;
 	z-index: 400;
 	width: 271px;
-}
-
-.quake-slider-images {
-	width: 100%;
-	height: 100%;
 }
 
 .nav {
@@ -214,7 +197,8 @@ p {
 }
 
 #footer table {
-	background-color: #ffffff;
+	color: #000000;
+	background-color: #000000;
 	height: 30px;
 	width: 60px;
 	font-size: 11px;
